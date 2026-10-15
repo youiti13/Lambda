@@ -2,7 +2,7 @@ import { log } from './log.mjs';
 
 export const handler = async (event) => {
   
-  log('log de execução ' + JSON.stringify(event));
+  log('log de execução  após gitgub action. event: ' + JSON.stringify(event));
 
   return {
     statusCode: 200,
