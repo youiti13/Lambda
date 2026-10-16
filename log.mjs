@@ -1,4 +1,5 @@
 export function log (mensagem){
-	console.log('Adicionando log via função', mensagem);
+	console.log(process.env.MINHA_VAR)
+	console.log( {mensagem});
 	
 }
